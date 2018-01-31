@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @font-face {
 	font-family: 'Munkeyshine';
+	src: url('fonts/munkeyshine-webfont.eot');
 	src: url('fonts/munkeyshine-webfont.woff2') format('woff2'),
 		 url('fonts/munkeyshine-webfont.woff') format('woff'),
-		 url('fonts/munkeyshine-webfont.ttf') format('ttf'),
+		 url('fonts/munkeyshine-webfont.ttf') format('ttf');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -11,7 +12,7 @@
 	font-family: 'Comfortaa';
 	src: url('fonts/comfortaa-webfont.woff2') format('woff2'),
 		 url('fonts/comfortaa-webfont.woff') format('woff'),
-		 url('fonts/comfortaa-webfont.ttf') format('ttf'),
+		 url('fonts/comfortaa-webfont.ttf') format('ttf');
 	font-weight: normal;
 	font-style: normal;
 }
