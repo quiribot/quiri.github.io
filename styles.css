@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @font-face {
 	font-family: 'Munkeyshine';
 	src: url('munkeyshine-webfont.eot');
@@ -10,13 +11,16 @@
 }
 
 html body {
-	background: #141414;
+	background: #181818;
+	font-family: Comfortaa;
+	font-size: 25px;
+	color: white;
 	width: 100%;
 	margin: 0px;
 }
 
 h1 {
-	color: #FFFFFF;
+	color: white;
 	font-family: Munkeyshine;
 	text-align: center;
 	opacity: 0.75;
@@ -24,9 +28,18 @@ h1 {
 	margin: 20px;
 }
 
+h2 {
+	color: white;
+	font-family: Munkeyshine;
+	opacity: 0.75;
+	font-size: 50px;
+	margin: 20px 0 20px 0;
+}
 
 .splash {
-	margin: auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 	animation: rainbow 18s step-end infinite;
 	width: 100%;
 	margin: 0px;
@@ -57,17 +70,82 @@ h1 {
 	100% { background-color: #53a96b; }
 }
 
-.splashimg {
+.splash-img {
 	margin: 0 auto;
 	text-align: center;
 }
 
-.splashimg img {
+.splash-img img {
 	width: 80%;
 	max-width: 500px;
 	opacity: 0.75;
 }
 
-.splashtext{
+.splash-text{
 	margin-right: 18px;
+}
+
+.splash-buttons {
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	flex-wrap: wrap;
+}
+
+.button {
+	margin: 20px;
+	text-align: center;
+	font-size: 45px;
+	color: white;
+	padding: 13px 13px 8px 13px;
+	border: 5px white solid;
+	border-radius: 8px;
+	opacity: .75;
+}
+
+.page {
+	margin: 70px 0 50px 0;
+}
+
+
+.article {
+	display: flex;
+	margin: 40px;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.article-content {
+	padding: 0 20px 0 25px;
+	width: 1200px;
+}
+.article-img {
+	border-radius: 8px;
+	padding: 70px;
+	width: 800px;
+	height: 50%;
+	display: block;
+	position: relative;
+	max-width: 80%;
+}
+
+.article-img img {
+	opacity: 0.75;
+	vertical-align: middle;
+	max-width: 100%;
+}
+
+.quiri {
+	font-family: Munkeyshine;
+	font-style: normal;
+}
+
+ul {
+	padding: 10px 70px 10px 70px;
+	font-size: 30px;
+}
+
+li {
+	padding-bottom: 15px;
 }
