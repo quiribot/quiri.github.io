@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'munkeyshineregular';
+    src: url('fonts/munkeyshine-webfont.woff2') format('woff2'),
+         url('fonts/munkeyshine-webfont.woff') format('woff'),
+         url('fonts/munkeyshine-webfont.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html body {
 	background: #141414;
 	width: 100%;
@@ -6,7 +16,7 @@ html body {
 
 h1 {
 	color: #FFFFFF;
-	font-family: Munkeyshine;
+	font-family: munkeyshineregular;
 	text-align: center;
 }
 
