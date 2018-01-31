@@ -1,11 +1,12 @@
 @font-face {
     font-family: 'munkeyshineregular';
+    src: url('munkeyshine-webfont.eot');
     src: url('fonts/munkeyshine-webfont.woff2') format('woff2'),
          url('fonts/munkeyshine-webfont.woff') format('woff'),
-         url('fonts/munkeyshine-webfont.ttf') format('ttf');
+         url('fonts/munkeyshine-webfont.ttf') format('ttf'),
+		 url('munkeyshine-webfont.svg#munkeyshineregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 html body {
