@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'munkeyshineregular';
+    font-family: 'Munkeyshine';
     src: url('munkeyshine-webfont.eot');
     src: url('fonts/munkeyshine-webfont.woff2') format('woff2'),
          url('fonts/munkeyshine-webfont.woff') format('woff'),
@@ -17,7 +17,7 @@ html body {
 
 h1 {
 	color: #FFFFFF;
-	font-family: munkeyshineregular;
+	font-family: Munkeyshine;
 	text-align: center;
 }
 
