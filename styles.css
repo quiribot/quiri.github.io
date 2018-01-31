@@ -43,6 +43,10 @@ h2 {
 	margin: 20px 0 20px 0;
 }
 
+a {
+	text-decoration: none;
+}
+
 .splash {
 	display: flex;
 	justify-content: center;
@@ -118,20 +122,19 @@ h2 {
 
 .article {
 	display: flex;
-	margin: 40px;
+	margin: 200px 40px 200px 40px;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 .article-content {
-	padding-right: 25px;
+	padding: 0 55px 0 55px;
 	width: 800px;
 }
 .article-img {
 	border-radius: 8px;
 	padding: 70px;
 	width: 600px;
-	height: 50%;
 	display: block;
 	position: relative;
 	max-width: 80%;
@@ -150,6 +153,7 @@ h2 {
 ul {
 	padding: 10px 70px 10px 70px;
 	font-size: 23px;
+	font-style: italic;
 }
 
 li {
