@@ -1,5 +1,7 @@
-body {
-	background: #141414
+html body {
+	background: #141414;
+	width: 100%;
+	margin: 0px;
 }
 
 h1 {
@@ -10,9 +12,44 @@ h1 {
 
 .splash {
 	margin: auto;
+  	animation: rainbow 9s step-end infinite;
+  	width: 100%;
+	margin: 0px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
-.splashimage {
-	margin: auto;
-    display: block;
+@-webkit-keyframes rainbow {
+	0% { background-color: #53a96b; }
+	13% { background-color: #5398a9; }
+	25% { background-color: #5365a9; }
+	38% { background-color: #8253a9; }
+	50% { background-color: #a95292; }
+	63% { background-color: #a95353; }
+	75% { background-color: #a99453; }
+	88% { background-color: #8ca953; }
+	100% { background-color: #53a96b; }
 }
+@keyframes rainbow {
+	0% { background-color: #53a96b; }
+	13% { background-color: #5398a9; }
+	25% { background-color: #5365a9; }
+	38% { background-color: #8253a9; }
+	50% { background-color: #a95292; }
+	63% { background-color: #a95353; }
+	75% { background-color: #a99453; }
+	88% { background-color: #8ca953; }
+	100% { background-color: #53a96b; }
+}
+
+.splashimg {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.splashimg img {
+	width: 80%;
+	max-width: 500px;
+	opacity: 0.75;
+}
+
