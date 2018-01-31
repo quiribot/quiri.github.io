@@ -11,3 +11,8 @@ h1 {
 .splash {
 	margin: auto;
 }
+
+.splashimage {
+	margin: auto;
+    display: block;
+}
