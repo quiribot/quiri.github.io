@@ -45,6 +45,7 @@ h2 {
 
 a {
 	text-decoration: none;
+	color: rgb(10,200,255);
 }
 
 .splash {
@@ -145,6 +146,7 @@ a {
 }
 .article-img {
 	margin-right: 55px;
+	margin-top: 20px;
 	border-radius: 8px;
 	padding: 70px;
 	width: 600px;
@@ -171,5 +173,17 @@ ul {
 
 li {
 	padding-bottom: 15px;
+}
+
+.footer {
+	padding: 15px 0 20px 0;
+	background-color: #121212;
+	text-align: center;
+	color: rgba(255,255,255,.1);
+	font-size: 15px;
+}
+
+.footer a {
+	color: rgba(10,200,255, .1);
 }
 
