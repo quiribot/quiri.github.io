@@ -20,7 +20,7 @@
 html body {
 	background: #181818;
 	font-family: Comfortaa;
-	font-size: 21px;
+	font-size: 1.3em;
 	color: white;
 	width: 100%;
 	margin: 0px;
@@ -112,7 +112,7 @@ a {
 
 .button {
 	font-family: Comfortaa;
-	font-size: 21px;
+	font-size: 1.3em;
 	color: white;
 	margin: 20px;
 	text-align: center;
@@ -170,7 +170,7 @@ a {
 
 ul {
 	padding: 10px 70px 10px 70px;
-	font-size: 23px;
+	font-size: 1.2em;
 	font-style: italic;
 }
 
