@@ -183,7 +183,8 @@ li {
 	animation: rainbow 18s step-end infinite;
 	position: fixed;
 	width: 100%;
-	height: 28px;
+	height: 30px;
+	line-height: 23px;
 	z-index: 1;
 	top: 0;
 }
@@ -210,6 +211,8 @@ li {
 
 .header-right {
 	text-align: right;
+	float: right;
+	vertical-align: middle;
 }
 
 .footer {
