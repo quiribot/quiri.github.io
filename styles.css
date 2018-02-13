@@ -3,16 +3,16 @@
 	font-family: 'Munkeyshine';
 	src: url('fonts/munkeyshine-webfont.eot');
 	src: url('fonts/munkeyshine-webfont.woff2') format('woff2'),
-		 url('fonts/munkeyshine-webfont.woff') format('woff'),
-		 url('fonts/munkeyshine-webfont.ttf') format('ttf');
+	url('fonts/munkeyshine-webfont.woff') format('woff'),
+	url('fonts/munkeyshine-webfont.ttf') format('ttf');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'Comfortaa';
 	src: url('fonts/comfortaa-webfont.woff2') format('woff2'),
-		 url('fonts/comfortaa-webfont.woff') format('woff'),
-		 url('fonts/comfortaa-webfont.ttf') format('ttf');
+	url('fonts/comfortaa-webfont.woff') format('woff'),
+	url('fonts/comfortaa-webfont.ttf') format('ttf');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -46,6 +46,21 @@ h2 {
 a {
 	text-decoration: none;
 	color: rgb(10,200,255);
+}
+
+ul {
+	padding: 10px 70px 10px 70px;
+	font-size: 23px;
+	font-style: italic;
+}
+
+li {
+	padding-bottom: 15px;
+}
+
+.quiri {
+	font-family: Munkeyshine;
+	font-style: normal;
 }
 
 .splash {
@@ -163,20 +178,6 @@ a {
 	max-width: 100%;
 }
 
-.quiri {
-	font-family: Munkeyshine;
-	font-style: normal;
-}
-
-ul {
-	padding: 10px 70px 10px 70px;
-	font-size: 23px;
-	font-style: italic;
-}
-
-li {
-	padding-bottom: 15px;
-}
 
 .header {
 	animation: rainbow 18s step-end infinite;
