@@ -227,3 +227,17 @@ li {
 	color: rgba(10,200,255, .3);
 }
 
+.colorstrip {
+	display: flex;
+	flex-direction: row;
+	width: 200px;
+	height: 25px;
+	border-radius: 5px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.colorbox {
+	width: 25px;
+	height: 25px;
+}
